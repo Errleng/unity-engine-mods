@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Passive ID="1">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script>Javascript_PassiveEffect</Script>
+    <Name>JavaScript Engine</Name>
+    <Desc>The power of God and JavaScript! At the start of the Scene, double the current light.</Desc>
+  </Passive>
+  <Passive ID="2">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>Hearthstone_PassiveEffect</Script>
+    <Name>Iceblood Tower</Name>
+    <Desc>Once per scene, add the dice of a random combat page in hand to a combat page being used.</Desc>
+  </Passive>
+  <Passive ID="3">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>Euler_PassiveEffect</Script>
+    <Name>Do not go home until you finish reading the value of e</Name>
+    <Desc>Every die will roll a digit of e. After the first 100 digits, it resets to the first digit.</Desc>
+  </Passive>
+  <Passive ID="4">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>EredarLord_PassiveEffect</Script>
+    <Name>Supplicants</Name>
+    <Desc>At the start of each scene, recover 2 HP for each ally still alive</Desc>
+  </Passive>
+  <Passive ID="5">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>EredarLordOppress_PassiveEffect</Script>
+    <Name>Oppression</Name>
+    <Desc>At the start of each scene, all other allies take 5% of max HP as damage. Every six scenes, kill all allies. For each one killed, add an INFERNO! page to hand.</Desc>
+  </Passive>
+  <Passive ID="6">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>EredarLordBossPhase1_PassiveEffect</Script>
+    <Name>Eredar Lord's Arrogance</Name>
+    <Desc>When HP reaches 300, continue to the next phase.</Desc>
+  </Passive>
+  <Passive ID="7">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>EredarLordBossPhase2_PassiveEffect</Script>
+    <Name>Eredar Lord's Fury</Name>
+    <Desc>At the start of the act, add five INFERNO! pages to hand, and replace all Summoning Portal pages in deck with Greater Summoning Portal. At the start of each scene, draw 3 cards and restore 3 light. Gain 2 speed dice.</Desc>
+  </Passive>
+</PassiveXmlRoot>

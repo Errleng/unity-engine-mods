@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Book ID="10000001">
+    <Name>JavaScript Fanatic Key Page</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>69</HP>
+      <DeadLine>0</DeadLine>
+      <Break>420</Break>
+      <SpeedMin>1</SpeedMin>
+      <Speed>15</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Immune</SResist>
+      <PResist>Resist</PResist>
+      <HResist>Normal</HResist>
+      <SBResist>Weak</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Resist</HBResist>
+      <MaxPlayPoint>9</MaxPlayPoint>
+      <StartPlayPoint>3</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive Pid="@origin">230024</Passive>
+      <Passive Pid="@origin">260011</Passive>
+      <Passive>1</Passive>
+      <Passive Pid="@origin">10008</Passive>
+    </EquipEffect>
+    <Rarity>Common</Rarity>
+    <CharacterSkin>BlackSilence4_Weapon1</CharacterSkin>
+    <CharacterSkinType>Lor</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SpeedDiceNum>5</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="10000002">
+    <Name>Jaina Proudmoore Hero Card</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>100</HP>
+      <DeadLine>0</DeadLine>
+      <Break>100</Break>
+      <SpeedMin>1</SpeedMin>
+      <Speed>9</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Normal</SResist>
+      <PResist>Normal</PResist>
+      <HResist>Normal</HResist>
+      <SBResist>Normal</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Normal</HBResist>
+      <MaxPlayPoint>6</MaxPlayPoint>
+      <StartPlayPoint>3</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive>2</Passive>
+    </EquipEffect>
+    <Rarity>Common</Rarity>
+    <CharacterSkin>Sayo_N</CharacterSkin>
+    <CharacterSkinType>Lor</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SpeedDiceNum>3</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="10000003">
+    <Name>Mathematica</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>99</HP>
+      <DeadLine>0</DeadLine>
+      <Break>89</Break>
+      <SpeedMin>1</SpeedMin>
+      <Speed>3</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Normal</SResist>
+      <PResist>Normal</PResist>
+      <HResist>Endure</HResist>
+      <SBResist>Endure</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Vulnerable</HBResist>
+      <MaxPlayPoint>5</MaxPlayPoint>
+      <StartPlayPoint>3</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive>3</Passive>
+    </EquipEffect>
+    <Rarity>Common</Rarity>
+    <CharacterSkin>Yan_Librarian</CharacterSkin>
+    <CharacterSkinType>Lor</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>1</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="10000004">
+    <Name>Eredar Lord</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>200</HP>
+      <DeadLine>0</DeadLine>
+      <Break>150</Break>
+      <SpeedMin>3</SpeedMin>
+      <Speed>10</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Endure</SResist>
+      <PResist>Endure</PResist>
+      <HResist>Endure</HResist>
+      <SBResist>Vulnerable</SBResist>
+      <PBResist>Vulnerable</PBResist>
+      <HBResist>Vulnerable</HBResist>
+      <MaxPlayPoint>3</MaxPlayPoint>
+      <StartPlayPoint>3</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive Pid="@origin">10008</Passive>
+      <Passive Pid="@origin">200004</Passive>
+      <Passive Pid="@origin">241102</Passive>
+      <Passive Pid="@origin">250026</Passive>
+      <Passive Pid="@origin">250336</Passive>
+    </EquipEffect>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>Carnival_Librarian</CharacterSkin>
+    <CharacterSkinType>Lor</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+</BookXmlRoot>

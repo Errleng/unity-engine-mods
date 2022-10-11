@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Book ID="1">
+    <Name>JavaScript Fanatic Key Page</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>100</HP>
+      <DeadLine>0</DeadLine>
+      <Break>100</Break>
+      <SpeedMin>1</SpeedMin>
+      <Speed>10</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Normal</SResist>
+      <PResist>Normal</PResist>
+      <HResist>Normal</HResist>
+      <SBResist>Normal</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Normal</HBResist>
+      <MaxPlayPoint>9</MaxPlayPoint>
+      <StartPlayPoint>9</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive Pid="@origin">240001</Passive>
+      <Passive Pid="@origin">240101</Passive>
+      <Passive Pid="@origin">240301</Passive>
+      <Passive>1</Passive>
+      <Passive Pid="@origin">10008</Passive>
+    </EquipEffect>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>Yang</CharacterSkin>
+    <CharacterSkinType>Lor</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="2">
+    <Name>Kel'Thuzad's Spellbook</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>120</HP>
+      <DeadLine>0</DeadLine>
+      <Break>50</Break>
+      <SpeedMin>1</SpeedMin>
+      <Speed>7</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Vulnerable</SResist>
+      <PResist>Vulnerable</PResist>
+      <HResist>Vulnerable</HResist>
+      <SBResist>Endure</SBResist>
+      <PBResist>Endure</PBResist>
+      <HBResist>Endure</HBResist>
+      <MaxPlayPoint>5</MaxPlayPoint>
+      <StartPlayPoint>5</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive>2</Passive>
+    </EquipEffect>
+    <Rarity>Common</Rarity>
+    <CharacterSkin>Pluto</CharacterSkin>
+    <CharacterSkinType>Lor</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>1</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="3">
+    <Name>Mathematician's Scratch Paper</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>108</HP>
+      <DeadLine>0</DeadLine>
+      <Break>96</Break>
+      <SpeedMin>1</SpeedMin>
+      <Speed>5</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Endure</SResist>
+      <PResist>Vulnerable</PResist>
+      <HResist>Normal</HResist>
+      <SBResist>Endure</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Weak</HBResist>
+      <MaxPlayPoint>5</MaxPlayPoint>
+      <StartPlayPoint>3</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive>3</Passive>
+    </EquipEffect>
+    <Rarity>Common</Rarity>
+    <CharacterSkin>Dante</CharacterSkin>
+    <CharacterSkinType>Lor</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>1</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>true</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="4">
+    <Name>Jaraxxus</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>500</HP>
+      <DeadLine>0</DeadLine>
+      <Break>200</Break>
+      <SpeedMin>3</SpeedMin>
+      <Speed>10</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Endure</SResist>
+      <PResist>Endure</PResist>
+      <HResist>Endure</HResist>
+      <SBResist>Normal</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Normal</HBResist>
+      <MaxPlayPoint>5</MaxPlayPoint>
+      <StartPlayPoint>4</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive Pid="@origin">241102</Passive>
+      <Passive Pid="@origin">251002</Passive>
+      <Passive Pid="@origin">250026</Passive>
+      <Passive Pid="@origin">250336</Passive>
+      <Passive>4</Passive>
+      <Passive>5</Passive>
+      <Passive>6</Passive>
+      <Passive Pid="@origin">200004</Passive>
+      <Passive Pid="@origin">251003</Passive>
+    </EquipEffect>
+    <Rarity>Common</Rarity>
+    <CharacterSkin>OrangeCross</CharacterSkin>
+    <CharacterSkinType>Lor</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>1</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="5">
+    <Name>Victim</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>1</HP>
+      <DeadLine>0</DeadLine>
+      <Break>1</Break>
+      <SpeedMin>1</SpeedMin>
+      <Speed>1</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Normal</SResist>
+      <PResist>Normal</PResist>
+      <HResist>Normal</HResist>
+      <SBResist>Normal</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Normal</HBResist>
+      <MaxPlayPoint>3</MaxPlayPoint>
+      <StartPlayPoint>3</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive>5</Passive>
+    </EquipEffect>
+    <Rarity>Common</Rarity>
+    <CharacterSkin>Angela</CharacterSkin>
+    <CharacterSkinType>Lor</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>1</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+</BookXmlRoot>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleDialogRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Character ID="1">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">The geriatrics have arrived!</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">Respect your elders!</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">I can't belive I died of Hokma...</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">I can't believe Steve Jobs died of ligma...</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">Hokma balls.</BattleDialog>
+    </Type>
+  </Character>
+  <Character ID="2">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">Minions, servants, soldiers of the cold dark! Obey the call... of Kel'Thuzad!</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY" />
+    <Type ID="DEATH">
+      <BattleDialog ID="0">I shall return...</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH" />
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">Pray for mercy!</BattleDialog>
+    </Type>
+  </Character>
+  <Character ID="3">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">Prove that the sum of any three consecutive numbers is...</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">Principle of </BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0" />
+    </Type>
+    <Type ID="COLLEAGUE_DEATH" />
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">QED</BattleDialog>
+    </Type>
+  </Character>
+  <Character ID="4">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">YOU FACE JARAXXUS, EREDAR LORD OF THE BURNING LEGION!</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">MUAHAHAHAHAHA!</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">	You win... BUT YOUR WORLD IS STILL DOOMED!</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">TRIFLING GNOME! YOUR ARROGANCE WILL BE YOUR UNDOING!</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">OBLIVION!!!</BattleDialog>
+    </Type>
+  </Character>
+  <Character ID="5">
+    <Type ID="START_BATTLE" />
+    <Type ID="BATTLE_VICTORY" />
+    <Type ID="DEATH" />
+    <Type ID="COLLEAGUE_DEATH" />
+    <Type ID="KILLS_OPPONENT" />
+  </Character>
+</BattleDialogRoot>

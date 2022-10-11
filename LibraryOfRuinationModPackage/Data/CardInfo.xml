@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Card ID="1">
+    <Name>Will of the JavaScript</Name>
+    <TextId>-1</TextId>
+    <Artwork>javascript.png</Artwork>
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="5" Affection="One" EmotionLimit="0" />
+    <Script>WillOfTheJavascript_CardEffect</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="1" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Iron_J" Script="WillOfTheJavascript_DiceEffect" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="1" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Iron_Z" Script="WillOfTheJavascript_DiceEffect" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="1" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Hana_G" Script="WillOfTheJavascript_DiceEffect" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="10" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="BlackSilence_4th_Shotgun_S8" Script="paralysis2pw" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="5" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="BorderOfDeath" Script="yujin" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>300</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="2">
+    <Name>Rune of the Archmage</Name>
+    <TextId>-1</TextId>
+    <Artwork>hearthstone-mage.jpg</Artwork>
+    <Rarity>Common</Rarity>
+    <Spec Range="Far" Cost="8" Affection="One" EmotionLimit="0" />
+    <Script>HearthstoneMage_CardEffect</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="15" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="ThePurpleTear_J" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="15" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>500</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="3">
+    <Name>Prime Gaming</Name>
+    <TextId>-1</TextId>
+    <Artwork>euler.jpg</Artwork>
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>protection1friend</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="10" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="YanLibrarian_Z" Script="Euler_DiceEffect" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="YanLibrarian_H" Script="Euler_DiceEffect" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="10" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="YanLibrarian_G" Script="Euler_DiceEffect" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="10" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="YanLibrarian_G" Script="Euler_DiceEffect" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>250</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="4">
+    <Name>Summoning Portal</Name>
+    <TextId>-1</TextId>
+    <Artwork>summoning-portal.jpg</Artwork>
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
+    <Script>SummoningPortal_CardEffect</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="10" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="WarpCrew_S3" Script="lovetownNextPower" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="5" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="FX_Mon_Oswarld_FireRing" Script="paralysis2pw" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>400</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="5">
+    <Name>TRIFLING GNOME!!!</Name>
+    <TextId>-1</TextId>
+    <Artwork>trifling-gnome.jpg</Artwork>
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>energy1paralysis1</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="2" Dice="7" Type="Atk" Detail="Hit" Motion="J" MotionDefault="N" EffectRes="FX_Mon_RedCross_Swing" Script="AlivePowerUp_DiceEffect" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="5" Type="Atk" Detail="Penetrate" Motion="J" MotionDefault="N" EffectRes="FX_Mon_RedCross_Swing" Script="AlivePowerUp_DiceEffect" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="3" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="FX_Mon_RedCross_Swing" Script="AlivePowerUp_DiceEffect" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="3" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="FX_Mon_RedCross_Swing" Script="AlivePowerUp_DiceEffect" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>100</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="6">
+    <Name>INFERNO!</Name>
+    <TextId>-1</TextId>
+    <Artwork>inferno.png</Artwork>
+    <Rarity>Common</Rarity>
+    <Option>ExhaustOnUse</Option>
+    <Spec Range="FarArea" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>dmgUpFriend3</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="6" Dice="15" Type="Atk" Detail="Penetrate" Motion="F" MotionDefault="N" EffectRes="TwistPhilip_Laser" Script="light1smoke3atk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>500</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="7">
+    <Name>Greater Summoning Portal</Name>
+    <TextId>-1</TextId>
+    <Artwork>greater-summoning-portal.jpg</Artwork>
+    <Rarity>Common</Rarity>
+    <Option>ExhaustOnUse</Option>
+    <Spec Range="Near" Cost="5" Affection="One" EmotionLimit="0" />
+    <Script>GreaterSummoningPortal_CardEffect</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="6" Dice="10" Type="Def" Detail="Evasion" Motion="J" MotionDefault="N" EffectRes="Yan_BrandAtk" Script="AlivePowerUp_DiceEffect" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="7" Type="Def" Detail="Evasion" Motion="J" MotionDefault="N" EffectRes="Yan_BrandAtk_NotWin" Script="AlivePowerUp_DiceEffect" ActionScript="" Desc="" />
+      <Behaviour Min="2" Dice="4" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Yan_TypingAtk" Script="energy1atk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>410</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="8">
+    <Name>Calming Face</Name>
+    <TextId>-1</TextId>
+    <Artwork>calm-face.png</Artwork>
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
+    <Script>endurance1friend</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="8" Type="Def" Detail="Guard" Motion="J" MotionDefault="N" EffectRes="EGO_ShyLookToday_G" Script="weak1pw" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="EGO_ShyLookToday_SG" Script="weak1atk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>4</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="9">
+    <Name>Warrior's Brawl</Name>
+    <TextId>-1</TextId>
+    <Artwork>brawl.png</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>cardPowerDown2target</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="4" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Stray_Gyungmi_J" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="2" Dice="6" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Stray_Gyungmi_Z" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="5" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Stray_Gyungmi_H" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="6" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Stray_Gyungmi_Z" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>1</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="10">
+    <Name>Will of the Punishing Bird</Name>
+    <TextId>-1</TextId>
+    <Artwork>will-of-the-punishing-bird.png</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
+    <Script>liuUnique</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="8" Type="Standby" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="Binah_FarPillar_Z" Script="powerDownNext2pwTarget" ActionScript="Pinball" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Binah_FarPillar_Z" Script="weak2atk" ActionScript="Pinball" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Binah_FarPillar_Z" Script="vulnerable2atk" ActionScript="Pinball" Desc="" />
+    </BehaviourList>
+    <Chapter>1</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="11">
+    <Name>Jojo's Pose</Name>
+    <TextId>-1</TextId>
+    <Artwork>jojo-pose.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>enemy2weak1thisRound</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="7" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Zwei_J" Script="lovetownNextPower" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Zwei_Named_J" Script="weakDisarmBinding1atk" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="4" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Zwei_J" Script="weak2atk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>4</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>50</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="12">
+    <Name>Final Decision</Name>
+    <TextId>-1</TextId>
+    <Artwork>daring-decision-buffed.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>discardAllAndPower2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="FX_Mon_One_Mirinae_Charge" Script="energy1pw" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="FX_Mon_One_Mirinae_Charge" Script="energy1pw" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="FX_Mon_One_Mirinae_Piercing" Script="drawCard1atk" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="FX_Mon_One_Mirinae_Piercing_AddATK" Script="quickness1atk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>300</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="13">
+    <Name>Dragon Scaling</Name>
+    <TextId>-1</TextId>
+    <Artwork>fervid-emotions.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="5" Affection="One" EmotionLimit="0" />
+    <Script>DragonScaling_CardEffect</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="1" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="FX_Mon_Sing_S" Script="powerDouble" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>500</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="14">
+    <Name>All is the Will of the Prescript</Name>
+    <TextId>-1</TextId>
+    <Artwork>will-of-the-prescript.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
+    <Script>drawUntil4</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="8" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="Binah_FarLockDefault" Script="powerDownNext2pwTargetHighlander" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="FX_Mon_Bayyard_SPiercing" Script="ozmaEgoDice" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="FX_Mon_Bayyard_SPiercing" Script="ozmaEgoDice" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="15">
+    <Name>Manifest Destiny</Name>
+    <TextId>-1</TextId>
+    <Artwork>manifest-ego.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="6" Affection="One" EmotionLimit="0" />
+    <Script>elenaMinionStrong</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="9" Dice="18" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="FX_Mon_RedCross_Swing" Script="sealTargetAtk" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="12" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="XiaoEgo_S1_Damaged" Script="nullifyPowerAtk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>500</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="16">
+    <Name>Onslaught</Name>
+    <TextId>-1</TextId>
+    <Artwork>onrush.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Spec Range="Instance" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>Onslaught_CardEffect</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="1" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="TheRedMist_A" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>100</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="17">
+    <Name>Rune of the White Mage</Name>
+    <TextId>-1</TextId>
+    <Artwork>evocation.jpg</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>RuneOfTheWhiteMage_CardEffect</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="2" Dice="3" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="TheRedMist_S2" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="2" Dice="3" Type="Standby" Detail="Guard" Motion="J" MotionDefault="N" EffectRes="TheRedMist_H" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>200</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+</DiceCardXmlRoot>

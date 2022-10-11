@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StageXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Stage id="1">
+    <Name>JavaScript Envangelists</Name>
+    <Wave>
+      <Unit>1</Unit>
+      <Unit>1</Unit>
+      <Unit>1</Unit>
+      <Unit>1</Unit>
+      <Unit>1</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>5</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>1</FloorNum>
+    <Chapter>5</Chapter>
+    <Invitation Combine="BookValue">
+      <Value>5</Value>
+      <Num>2</Num>
+    </Invitation>
+    <Condition>
+      <Level>0</Level>
+    </Condition>
+    <Story Condition="Start" />
+    <Story Condition="End" />
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+  <Stage id="2">
+    <Name>Kel'Thuzad's Crib</Name>
+    <Wave>
+      <Unit>2</Unit>
+      <Unit>2</Unit>
+      <Unit>2</Unit>
+      <Unit>2</Unit>
+      <Unit>2</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>5</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>1</FloorNum>
+    <Chapter>2</Chapter>
+    <Invitation Combine="BookValue">
+      <Value>2</Value>
+      <Num>1</Num>
+    </Invitation>
+    <Condition>
+      <Level>0</Level>
+    </Condition>
+    <Story Condition="Start">Button</Story>
+    <Story Condition="End" />
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+  <Stage id="3">
+    <Name>MathSoc</Name>
+    <Wave>
+      <Unit>3</Unit>
+      <Unit>3</Unit>
+      <Unit>3</Unit>
+      <Unit>3</Unit>
+      <Unit>3</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>5</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>1</FloorNum>
+    <Chapter>1</Chapter>
+    <Invitation Combine="BookValue">
+      <Value>1</Value>
+      <Num>1</Num>
+    </Invitation>
+    <Condition>
+      <Level>0</Level>
+    </Condition>
+    <Story Condition="Start">Button</Story>
+    <Story Condition="End" />
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+  <Stage id="4">
+    <Name>Jaraxxus' Crib</Name>
+    <Wave>
+      <Unit>4</Unit>
+      <Unit>2</Unit>
+      <Unit>3</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>5</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>3</FloorNum>
+    <Chapter>7</Chapter>
+    <Invitation Combine="BookValue">
+      <Value>7</Value>
+      <Num>3</Num>
+    </Invitation>
+    <Condition>
+      <Level>0</Level>
+    </Condition>
+    <Story Condition="Start">Button</Story>
+    <Story Condition="End" />
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+  <Stage id="5">
+    <Name>Victims' Lair</Name>
+    <Wave>
+      <Unit>5</Unit>
+      <Unit>5</Unit>
+      <Unit>5</Unit>
+      <Unit>5</Unit>
+      <Unit>5</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>5</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>1</FloorNum>
+    <Chapter>1</Chapter>
+    <Invitation Combine="BookValue">
+      <Value>1</Value>
+      <Num>1</Num>
+    </Invitation>
+    <Condition>
+      <Level>0</Level>
+    </Condition>
+    <Story Condition="Start">Button</Story>
+    <Story Condition="End" />
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+</StageXmlRoot>
